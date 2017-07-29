@@ -8,6 +8,19 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<nav class="navbar navbar-default">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-inverse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!--<a href="<%= root_path %>">One</a>-->
+        <li><%= link_to "One", root_path %></li>
+        <li><%= link_to "Two", pages_two_path %></li>
+        <li><%= link_to "Three", pages_three_path %></a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+</nav>
+
+
 <html>
   <head>
     <title>FirstApp</title>
